@@ -30,7 +30,7 @@ export default function GitHubSection() {
   }, []);
 
   return (
-    <section id="github" className="relative py-28 md:py-36">
+    <section id="github" className="relative py-10 md:py-12">
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeader
           eyebrow="// open source"

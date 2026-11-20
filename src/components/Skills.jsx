@@ -44,7 +44,7 @@ function Icon({ name }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative py-28 md:py-36">
+    <section id="skills" className="relative py-10 md:py-12">
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeader
           eyebrow="// toolkit"

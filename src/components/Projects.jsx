@@ -77,7 +77,7 @@ function ProjectCard({ project, index }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative py-28 md:py-36">
+    <section id="projects" className="relative py-10 md:py-12">
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeader
           eyebrow="// featured work"

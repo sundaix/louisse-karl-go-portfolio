@@ -4,25 +4,23 @@ import { config } from "../data/config";
 
 export default function About() {
   return (
-    <section id="about" className="relative py-28 md:py-36">
+    <section id="about" className="relative py-10 md:py-12">
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeader
           eyebrow="// why me"
-          title="Curious by default, deliberate by habit."
-        />
+          title="Curious by default, deliberate by habit."/>
 
         <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-12 items-start">
-          <Reveal>
-            <div className="relative aspect-[4/5] rounded-3xl card overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue/25 via-transparent to-purple/25" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-display text-7xl font-semibold text-white/10">LKG</span>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 p-5 glass border-t border-line">
-                <p className="font-mono text-xs text-muted">Photo placeholder — swap in /public</p>
-              </div>
-            </div>
-          </Reveal>
+           <Reveal>
+             <div className="relative aspect-square rounded-3xl card overflow-hidden">
+               <img
+               src="/karlgopic.png"
+               alt={config.name}
+               className="absolute inset-0 h-full w-full object-cover object-top"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue/15 via-transparent to-purple/15" />
+       </div>
+           </Reveal>
 
           <div className="space-y-6 text-lg text-muted leading-relaxed">
             <Reveal>
@@ -57,7 +55,7 @@ export default function About() {
                 {[
                   ["Currently", "3rd Year BSIT"],
                   ["Focused on", "Web & Cloud"],
-                  ["Approach", "Ship, then refine"],
+                  ["Approach", "Prioritize the user experience"],
                   ["Driven by", "Real problems"],
                 ].map(([k, v]) => (
                   <div key={k} className="card rounded-xl px-4 py-3">

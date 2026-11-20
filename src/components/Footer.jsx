@@ -20,7 +20,7 @@ export default function Footer() {
               LK<span className="text-gradient">.</span>Go
             </p>
             <p className="text-sm text-muted mt-1 max-w-xs">
-              "Every project is a rough draft of a better one."
+              "Always prioritize user experience and accessibility in every project."
             </p>
           </div>
 

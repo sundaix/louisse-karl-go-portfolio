@@ -5,7 +5,7 @@ import { posts } from "../data/blog";
 
 export default function Blog() {
   return (
-    <section id="blog" className="relative py-28 md:py-36">
+    <section id="blog" className="relative py-10 md:py-12">
       <div className="max-w-6xl mx-auto px-6">
         <SectionHeader
           eyebrow="// writing"

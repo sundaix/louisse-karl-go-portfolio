@@ -5,7 +5,7 @@ import { config } from "../data/config";
 
 export default function Resume() {
   return (
-    <section id="resume" className="relative py-28 md:py-36">
+    <section id="resume" className="relative py-10 md:py-12">
       <div className="max-w-4xl mx-auto px-6">
         <SectionHeader eyebrow="// resume" title="The one-page version." />
         <Reveal>
